@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    height: 20vh;
+    padding: 26px 0 60px 0;
+    background-color: #1d1d1d;
+}
+
+.header_logo {
+    color: #ffffff;
+ 
+}
+.header_contacts {
+    display: flex;
+    color: #ffffff;
+}
+
+.header_phone {
+    margin-right: 30px;
+}
