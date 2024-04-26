@@ -12,6 +12,11 @@
     color: #ffffff;
  
 }
+
+.logo {
+    width: 270px;
+  
+}
 .header_contacts {
     display: flex;
     color: #ffffff;

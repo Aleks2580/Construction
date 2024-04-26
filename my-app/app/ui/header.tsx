@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.header_logo}>
-        <span>Территория <br /> Cтроительства</span>
+        <img className={styles.logo} src="/logos/logo-black.png" alt="логотип  компании" />
       </div>
       <div className={styles.header_contacts}>
         <span className={styles.header_phone}>+7(495)111-11-11</span>
