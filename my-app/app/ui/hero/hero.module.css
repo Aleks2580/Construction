@@ -1,0 +1,52 @@
+.hero_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-image: linear-gradient(
+        to right top,
+        rgba(251, 249, 252, 0.509),
+        rgba(248, 249, 247, 0.505)
+      ),
+      url("../../../public/pics/hero.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_subname {
+ font-size: 20px;
+ /* font-weight: bold; */
+ font-weight: 800;
+ /* color: #fff; */
+ color: #1d1d1d;
+}
+
+.hero_name {
+    margin-bottom: 80px;
+    font-size: 54px;
+    font-weight: 600;
+    /* background-color: #1d1d1d; */
+    /* color: #deae66; */
+    padding: 20px;
+    /* color: #1d1d1dba; */
+    color: #fff;
+    border-radius: 10px;
+}
+
+.hero_span {
+    /* color: #fff; */
+    color: #1d1d1d;
+    /* color: #deae66; */
+    
+}
+
+.hero_moto {
+    /* color: #1d1d1d; */
+    font-weight: 800;
+    font-size: 20px;
+     color: #fff;
+    /* padding: 10px;
+    background-color: #deae66;
+    border-radius: 5px; */
+}

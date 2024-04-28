@@ -11,7 +11,7 @@ export default function Header() {
         <span className={styles.header_phone}>+7(495)111-11-11</span>
         <span className={styles.header_email}>info@construct.com</span>
         <button className={styles.header_button}>
-          <img className={styles.header_icon} src='/icons/search.png'/>
+          <img className={styles.header_icon} src='/icons/location.png'/>
         </button>
       </div>
       <nav className={styles.header_nav}>
