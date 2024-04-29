@@ -12,13 +12,21 @@
       url("../../../public/pics/hero.webp");
     background-size: cover;
     background-position: center;
+    animation: scaleDown 10s ease-in-out;
+}
+
+@keyframes scaleDown {
+    0% {
+        background-size: 130%;
+    }
+    100% {
+        background-size: 100%;
+    }
 }
 
 .hero_subname {
  font-size: 20px;
- /* font-weight: bold; */
  font-weight: 800;
- /* color: #fff; */
  color: #1d1d1d;
 }
 
@@ -26,27 +34,32 @@
     margin-bottom: 80px;
     font-size: 54px;
     font-weight: 600;
-    /* background-color: #1d1d1d; */
-    /* color: #deae66; */
     padding: 20px;
-    /* color: #1d1d1dba; */
     color: #fff;
     border-radius: 10px;
 }
 
 .hero_span {
-    /* color: #fff; */
-    color: #1d1d1d;
-    /* color: #deae66; */
-    
+    color: #1d1d1d; 
 }
 
 .hero_moto {
-    /* color: #1d1d1d; */
     font-weight: 800;
     font-size: 20px;
      color: #fff;
-    /* padding: 10px;
-    background-color: #deae66;
-    border-radius: 5px; */
 }
+
+.hero_button {
+    padding: 12px;
+    background-color: #deae66;
+    border: #deae66;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero_button:hover {
+    scale: 1.1;
+    transition: all .3s ease-in-out;
+}
+
