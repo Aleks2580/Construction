@@ -67,23 +67,24 @@
     height: auto;
     position: relative;
     width: auto;
+    top: 20%;
+    cursor: pointer;
   }
   
   .arrow::before {
     animation: bounce 1.5s ease infinite;
-    bottom: 1rem;
+    bottom: 16px;
     color: rgba(9, 9, 121, 1);
     content: "╲╱";
-    font-size: 1rem;
-    height: 4rem;
-    left: 50%;
+    font-size: 16px;
+    height: 64px;
     letter-spacing: -1px;
-    line-height: 4rem;
-    margin-left: -3rem;
+    line-height: 64px;
+    margin-left: -48px;
     opacity: 1;
     position: absolute;
     text-align: center;
-    width: 6rem;
+    width: 84px;
   }
 
   @keyframes bounce {
@@ -96,30 +97,28 @@
     height: auto;
     position: relative;
     width: auto;
+    top: 20%;
+    cursor: pointer;
   }
   
   .arrowTwo::before {
     animation: bounce 1.5s ease infinite;
-    bottom: 0rem;
+    bottom: 0px;
     color: rgba(9, 9, 121, 1);
     content: "╲╱";
-    font-size: 1rem;
-    height: 4rem;
-    left: 50%;
+    font-size: 16px;
+    height: 64px;
     letter-spacing: -1px;
-    line-height: 4rem;
-    margin-left: -3rem;
+    line-height: 64px;
+    margin-left: -48px;
     opacity: 1;
     position: absolute;
     text-align: center;
-    width: 6rem;
+    width: 84px;
   }
   
   .linkScroll {
     cursor: pointer;
   }
 
-  .test {
-    height: 30vh;
-  }
 

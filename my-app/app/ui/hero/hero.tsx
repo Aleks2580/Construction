@@ -2,7 +2,7 @@
 import { useRef } from 'react';
 import styles from "./hero.module.css";
 import { Fade } from "react-awesome-reveal";
-import Link from "next/link";
+import About from "../about/page"
 
 
 export default function Hero() {
@@ -30,7 +30,7 @@ export default function Hero() {
         <div className={styles.arrowTwo} onClick={scrollToAbout}></div>
       </section>
       <div ref={aboutRef} id="about">
-        SCHOOLS
+        <About/>
       </div>
     </>
   );
