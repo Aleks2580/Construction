@@ -63,3 +63,62 @@
     transition: all .3s ease-in-out;
 }
 
+.arrow {
+    height: auto;
+    position: relative;
+    width: auto;
+    top: 20%;
+    cursor: pointer;
+  }
+  
+  .arrow::before {
+    animation: bounce 1.5s ease infinite;
+    bottom: 16px;
+    color: rgba(9, 9, 121, 1);
+    content: "╲╱";
+    font-size: 16px;
+    height: 64px;
+    letter-spacing: -1px;
+    line-height: 64px;
+    margin-left: -48px;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    width: 84px;
+  }
+
+  @keyframes bounce {
+    50% {
+      transform: translateY(-50%);
+    }
+  }
+  
+  .arrowTwo {
+    height: auto;
+    position: relative;
+    width: auto;
+    top: 20%;
+    cursor: pointer;
+  }
+  
+  .arrowTwo::before {
+    animation: bounce 1.5s ease infinite;
+    bottom: 0px;
+    color: rgba(9, 9, 121, 1);
+    content: "╲╱";
+    font-size: 16px;
+    height: 64px;
+    letter-spacing: -1px;
+    line-height: 64px;
+    margin-left: -48px;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    width: 84px;
+  }
+  
+  .linkScroll {
+    cursor: pointer;
+  }
+
+
