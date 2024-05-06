@@ -2,15 +2,10 @@
 import { useRef } from 'react';
 import styles from "./hero.module.css";
 import { Fade } from "react-awesome-reveal";
-import About from "../about/page"
+import Arrows from '../arrows/arrows';
 
 
 export default function Hero() {
-  const aboutRef = useRef(null);
-
-  const scrollToAbout = () => {
-    aboutRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
   return (
     <>
       <section className={styles.hero_main}>
@@ -25,13 +20,8 @@ export default function Hero() {
         <Fade direction="up" delay={3800} duration={4000}>
           <button className={styles.hero_button}>ПРЕЗЕНТАЦИЯ КОМПАНИИ</button>
         </Fade>
-
-        <div className={styles.arrow} onClick={scrollToAbout}></div>
-        <div className={styles.arrowTwo} onClick={scrollToAbout}></div>
+       <Arrows/>
       </section>
-      <div ref={aboutRef} id="about">
-        <About/>
-      </div>
     </>
   );
 }

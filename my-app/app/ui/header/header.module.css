@@ -2,11 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
     height: 15vh;
     padding: 24px 0 40px 0;
     background-color: #1d1d1d;
-    
 }
 
 .header_logo {
@@ -98,7 +96,7 @@
     padding: 0;
 }
 
-.header_nav li {
+.link_wrapper{
     display: inline-block;
     margin-right: 20px;
    
@@ -110,8 +108,9 @@
     cursor: pointer;
 }
 
-.header_nav a:hover {
+.link_wrapper:hover, .link_wrapper.active {
     color: #1d1d1d;
     transition: all .3s ease-in-out;
-    
+    border-bottom: 1px solid #1d1d1d;
+    border-top: 1px solid #1d1d1d;
 }
