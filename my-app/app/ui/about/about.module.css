@@ -1,14 +1,71 @@
-.main {
-    display: flex;
-    flex-direction: column;
+.about_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
 }
 
 .about_info {
-    height: 85vh;
-    padding-top: 15vh;
+  width: 70vw;
 }
 
-.about_services {
-    height: 50vh;
-    background-color: #1d1d1d;
+.title {
+    margin-bottom: 60px;
+  }
+  
+
+
+
+.text {
+  margin-bottom: 20px;
+  color: rgb(40, 39, 39);
+}
+
+.sub_text {
+  margin-bottom: 30px;
+}
+
+.about_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    background: linear-gradient(145deg, #deae66, hsl(38, 76%, 71%));
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .about_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    filter: brightness(110%);
+  }
+
+.about_icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.card_title {
+ color:#ffffff;
+  margin-bottom: 10px;
+}
+
+.card_text {
+    color:#ffffff;
 }
