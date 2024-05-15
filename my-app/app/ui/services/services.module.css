@@ -1,4 +1,74 @@
 .services_main {
     height: 85vh;
-    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right top,
+        rgba(251, 249, 252, 0),
+        rgba(13, 13, 13, 0)
+      ),
+      url("../../../public/pics/services.webp");
+    background-size: cover;
+    background-position: center;
 }
+
+.services_info {
+    /* width: 70vw; */
+    margin-top: 150px;
+  }
+  
+  .title {
+    
+      margin-bottom: 60px;
+      color: #ffffff;
+    }
+    
+  .about_cards {
+    display: grid;
+    /* padding: 0 120px 0 120px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .about_card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 300px;
+      background: linear-gradient(145deg, #deae66, hsl(38, 76%, 71%));
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .about_card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      filter: brightness(110%);
+    }
+  
+  .about_icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    filter: brightness(0) invert(1);
+  }
+  
+  .card_title {
+   color:#ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .card_text {
+      color:#ffffff;
+  }
+  
