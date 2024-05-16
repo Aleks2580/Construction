@@ -15,19 +15,16 @@
 }
 
 .services_info {
-    /* width: 70vw; */
     margin-top: 150px;
   }
   
   .title {
-    
       margin-bottom: 60px;
       color: #ffffff;
     }
     
   .about_cards {
     display: grid;
-    /* padding: 0 120px 0 120px; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 30px;
@@ -39,12 +36,14 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       text-align: center;
       width: 300px;
-      background: linear-gradient(145deg, #deae66, hsl(38, 76%, 71%));
+      height: 200px;
+      background: linear-gradient(145deg,  #ffffff,  #ffffff);
       padding: 15px;
       border-radius: 10px;
-      border: 1px solid #fff;
+      border: 1px solid #1d1d1d;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease-in-out;
     }
@@ -60,15 +59,12 @@
     height: 64px;
     margin-bottom: 15px;
     margin-top: 5px;
-    filter: brightness(0) invert(1);
   }
   
   .card_title {
-   color:#ffffff;
-    margin-bottom: 10px;
+   color:#1d1d1d;
+    /* margin-bottom: 10px; */
   }
   
-  .card_text {
-      color:#ffffff;
-  }
+ 
   

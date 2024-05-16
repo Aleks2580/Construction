@@ -1,5 +1,4 @@
 "use client";
-import { useRef } from 'react';
 import styles from "./hero.module.css";
 import { Fade } from "react-awesome-reveal";
 import Arrows from '../arrows/arrows';
