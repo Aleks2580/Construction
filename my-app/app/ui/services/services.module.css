@@ -49,9 +49,8 @@
     }
     
     .about_card:hover {
-      transform: translateY(-10px);
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-      filter: brightness(110%);
+      filter: brightness(80%);
     }
   
   .about_icon {
@@ -63,7 +62,6 @@
   
   .card_title {
    color:#1d1d1d;
-    /* margin-bottom: 10px; */
   }
   
  

@@ -26,6 +26,11 @@
     position: relative;
 }
 
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .header_phone {
     margin-right: 20px;
     cursor: pointer;

@@ -2,24 +2,23 @@
 import styles from "./contacts.module.css";
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 
-export default function Contacts() {
-  // Coordinates for Tverskaya Street, Moscow
-  const mapData = {
-    center: [55.763285, 37.605993], // Directly using the provided coordinates
-    zoom: 15, // Zoom level adjusted for street view
-  };
+const mapData = {
+  center: [55.751574, 37.573856],
+  zoom: 9,
+};
 
+export default function Contacts() {
   return (
     <div className={styles.contacts_main}>
       <form action="" className={styles.form}>
-        <h4>ОТПРАВИТЬ СООБЩЕНИЕ</h4>
-        <p>Мы нигде не публикуем ваш e-mail адрес</p>
-        <div>
-          <input type="text" />
-          <input type="text" />
+        <h4 className={styles.form_title}>ОТПРАВИТЬ СООБЩЕНИЕ</h4>
+        <p className={styles.form_info}>Мы нигде не публикуем ваш e-mail адрес</p>
+        <div className={styles.form_inputs}>
+          <input type="text" placeholder="Ваше имя" className={styles.input} />
+          <input type="email" placeholder="Ваш e-mail" className={styles.input} />
         </div>
-        <textarea name=""></textarea>
-        <button>ОТПРАВИТЬ</button>
+        <textarea placeholder="Ваше сообщение" className={styles.textarea}></textarea>
+        <button type="submit" className={styles.button}>ОТПРАВИТЬ</button>
       </form>
       <div className={styles.contacts_info}>
         <div className={styles.contact_card}>

@@ -4,14 +4,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1d1d1d;
+    background-color: #ffffff;
     padding: 20px;
 }
 
 .projects_title {
-    color: #ffffff;
-    font-size: 40px;
+    color: #1d1d1d;
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .swiper {
