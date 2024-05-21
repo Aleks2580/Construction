@@ -14,7 +14,8 @@
   .arrow::before {
     animation: bounce 1.5s ease infinite;
     bottom: 16px;
-    color: rgba(9, 9, 121, 1);
+    color: black;
+    font-weight: bolder;
     content: "╲╱";
     font-size: 16px;
     height: 64px;

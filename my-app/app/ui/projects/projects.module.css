@@ -4,12 +4,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-image: linear-gradient(
+        to right top,
+        rgba(251, 249, 252, 0),
+        rgba(248, 249, 247, 0)
+      ),
+      url("../../../public/pics/projects2.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 20px;
 }
 
 .projects_title {
-    color: #1d1d1d;
+    color: #ffffff;
     margin-bottom: 20px;
     font-size: 24px;
 }

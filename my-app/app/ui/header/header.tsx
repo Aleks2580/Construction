@@ -16,9 +16,9 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.header_logo} id='/'>
-      <Link href="/" onClick={() => setActive('')}><img className={styles.logo} src="logos/logo-black.png" alt="Company Logo" /></Link>
-      </div>
+      {/* <Link className={styles.header_logo} href="/"> */}
+      <Link className={styles.header_logo} href="/" onClick={() => setActive('')}><img className={styles.logo} src="logos/logo-black.png" alt="Company Logo" /></Link>
+      {/* </Link> */}
       <div className={styles.header_contacts}>
         <a className={styles.link} href="tel:+7(495)111-11-11"><span className={styles.header_phone}>+7(495)111-11-11</span></a>
         <a className={styles.link} href="mailto:info@construct.com"><span className={styles.header_email}>info@construct.com</span></a>
@@ -27,18 +27,19 @@ export default function Header() {
         </button>
       </div>
       <nav className={styles.header_nav}>
-        <ul>
+       
         {navLinks.map((link) => (
-        <Link 
-          key={link.id} 
-          href={`#${link.id}`} 
-          className={`${styles.link_wrapper} ${active === link.id ? styles.active : ''}`}
-          onClick={() => setActive(link.id)}
-        >
-          {link.title}
-        </Link>
+     
+         <Link 
+           href={`#${link.id}`} 
+           className={`${styles.link_wrapper} ${active === link.id ? styles.active : ''}`}
+           onClick={() => setActive(link.id)}
+         >
+           {link.title}
+         </Link>
+
       ))}
-        </ul>
+       
     </nav>
     </header>
   )
