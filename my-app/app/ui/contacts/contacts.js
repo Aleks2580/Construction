@@ -4,7 +4,7 @@ import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 
 const mapData = {
   center: [55.751574, 37.573856],
-  zoom: 9,
+  zoom: 15,
 };
 
 export default function Contacts() {
@@ -23,15 +23,15 @@ export default function Contacts() {
     </form>
     <div className={styles.cards_section}>
       <div className={styles.contact_card}>
-        <img className={styles.icon} src="/icons/phone.png" alt="phone icon" />
+        <img className={styles.icon} src="icons/phone.png" alt="phone icon" />
         <p>+123 456 7890</p>
       </div>
       <div className={styles.contact_card}>
-        <img className={styles.icon} src="/icons/email.png" alt="email icon" />
+        <img className={styles.icon} src="icons/email.png" alt="email icon" />
         <p>contact@example.com</p>
       </div>
       <div className={styles.contact_card}>
-        <img className={styles.icon} src="/icons/location1.png" alt="location icon" />
+        <img className={styles.icon} src="icons/location1.png" alt="location icon" />
         <p>Москва, пр-кт Андропова, д.10, пом.140</p>
       </div>
     </div>

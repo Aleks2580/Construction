@@ -1,5 +1,5 @@
 .services_main {
-    height: 85vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,11 +7,11 @@
     background-image: linear-gradient(
         to right top,
         rgba(251, 249, 252, 0),
-        rgba(13, 13, 13, 0)
+        rgba(13, 13, 13, 0.464)
       ),
       url("../../../public/pics/services.webp");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .services_info {
@@ -19,6 +19,7 @@
   }
   
   .title {
+    margin-top: 90px;
       margin-bottom: 60px;
       color: #ffffff;
     }

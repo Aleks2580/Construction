@@ -12,7 +12,7 @@ export default function Services() {
             <div className={styles.about_card}>
               <img
                 className={styles.about_icon}
-                src="/icons/contract.png"
+                src="icons/contract.png"
                 alt="contract"
               />{" "}
               <h4 className={styles.card_title}>Генеральный подряд</h4>
@@ -22,7 +22,7 @@ export default function Services() {
           <div className={styles.about_card}>
             <img
               className={styles.about_icon}
-              src="/icons/buildings.png"
+              src="icons/buildings.png"
               alt="buildings"
             />{" "}
             <h4 className={styles.card_title}>
@@ -34,7 +34,7 @@ export default function Services() {
           <div className={styles.about_card}>
             <img
               className={styles.about_icon}
-              src="/icons/construction.png"
+              src="icons/construction.png"
               alt="construction"
             />{" "}
             <h4 className={styles.card_title}>
@@ -46,7 +46,7 @@ export default function Services() {
           <div className={styles.about_card}>
             <img
               className={styles.about_icon}
-              src="/icons/house.png"
+              src="icons/house.png"
               alt="house"
             />{" "}
             <h4 className={styles.card_title}>
@@ -58,7 +58,7 @@ export default function Services() {
           <div className={styles.about_card}>
             <img
               className={styles.about_icon}
-              src="/icons/small.png"
+              src="icons/small.png"
               alt="small"
             />{" "}
             <h4 className={styles.card_title}>Малоэтажное строительство</h4>
@@ -68,7 +68,7 @@ export default function Services() {
           <div className={styles.about_card}>
             <img
               className={styles.about_icon}
-              src="/icons/project.png"
+              src="icons/project.png"
               alt="project"
             />{" "}
             <h4 className={styles.card_title}>Управление проектами</h4>
