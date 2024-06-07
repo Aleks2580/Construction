@@ -16,9 +16,9 @@ export default function Hero() {
             ТЕРРИТОРИЯ <span className={styles.hero_span}>СТРОИТЕЛЬСТВА</span>
           </h1>
         </Fade>
-        <Fade direction="up" delay={3800} duration={4000}>
+        {/* <Fade direction="up" delay={3800} duration={4000}>
           <button className={styles.hero_button}>ПРЕЗЕНТАЦИЯ КОМПАНИИ</button>
-        </Fade>
+        </Fade> */}
        <Arrows/>
       </section>
     </>

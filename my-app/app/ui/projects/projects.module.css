@@ -77,3 +77,12 @@
 .swiper-pagination-bullet {
     background: var(--swiper-pagination-color) !important;
 }
+
+@media only screen and (max-width: 1500px) {
+    .projects_title {
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-top: 160px;
+        font-size: 24px;
+    }
+  }
