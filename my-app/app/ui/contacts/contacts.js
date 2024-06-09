@@ -32,7 +32,7 @@ export default function Contacts() {
       </div>
       <div className={styles.contact_card}>
         <img className={styles.icon} src="icons/location1.png" alt="location icon" />
-        <p>Москва, пр-кт Андропова, д.10, пом.140</p>
+        <p>Варшавское ш. 42</p>
       </div>
     </div>
   </div>

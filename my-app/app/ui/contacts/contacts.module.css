@@ -6,7 +6,7 @@
   padding: 0;
   background-color: #1d1d1d;
   color: #ffffff;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .form_and_cards_section {
@@ -100,7 +100,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* Added gap to space out icon and text */
+  gap: 10px;
 }
 
 .contact_card img {
@@ -111,15 +111,14 @@
 .contact_card p {
   color: #1d1d1d;
   font-size: 16px;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .map_section {
   width: 100%;
-  height: 100%;
+  height: 250px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
 }
 
 .map {
@@ -127,4 +126,47 @@
   height: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 800px) {
+  .form_title {
+    font-size: 18px;
+  }
+
+  .contact_card {
+    padding: 10px;
+    width: 32%;
+    gap: 5px;
+  }
+  
+  .contact_card img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .contact_card p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form_and_cards_section {
+    width: 95%;
+    margin-top: 120px;
+    padding: 10px;
+  }
+  .contact_card {
+    flex-direction: column;
+    width: 33%;
+    gap: 3px;
+  }
+  
+  .contact_card img {
+    height: 15px;
+    width: 15px;
+  }
+  
+  .contact_card p {
+    font-size: 10px;
+  }
 }
