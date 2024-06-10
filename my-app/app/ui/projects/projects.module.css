@@ -82,6 +82,7 @@
 
 .modal_text {
     margin-top: 15px;
+    margin-bottom: 15px;
   }
 
 @media only screen and (max-width: 1500px) {
