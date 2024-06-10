@@ -6,7 +6,6 @@
   padding: 0;
   background-color: #1d1d1d;
   color: #ffffff;
-  /* height: 100vh; */
 }
 
 .form_and_cards_section {
@@ -101,6 +100,11 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  text-decoration: none;
+}
+
+.contact_card:hover {
+ scale: 1.05;
 }
 
 .contact_card img {

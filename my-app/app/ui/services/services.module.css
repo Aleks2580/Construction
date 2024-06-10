@@ -64,6 +64,10 @@
   .card_title {
    color:#1d1d1d;
   }
+
+  .modal_text {
+    margin-top: 15px;
+  }
   
  
   @media only screen and (max-width: 1500px) {

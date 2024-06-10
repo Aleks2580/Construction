@@ -42,9 +42,11 @@
 
 .projects_image {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     object-fit: cover;
 }
+
+
 
 .projects_legend {
     position: absolute;
@@ -61,6 +63,7 @@
     margin: 0;
     font-size: 24px;
     color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .projects_legend_description {
@@ -77,6 +80,10 @@
     background: var(--swiper-pagination-color) !important;
 }
 
+.modal_text {
+    margin-top: 15px;
+  }
+
 @media only screen and (max-width: 1500px) {
     .projects_title {
         margin-top: 160px;
@@ -87,6 +94,10 @@
   @media only screen and (max-width: 1200px) {
     .swiper {
         width: 90%;
+    }
+
+    .projects_legend_title {
+        font-size: 20px;
     }
 
   }
@@ -104,6 +115,9 @@
         width: 90%;
         height: 65%; 
     }
-    
+
+    .projects_legend_title {
+        font-size: 14px;
+    }
   }
   

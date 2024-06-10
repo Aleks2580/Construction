@@ -3,7 +3,7 @@ import styles from "./contacts.module.css";
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 
 const mapData = {
-  center: [55.751574, 37.573856],
+  center: [55.676108, 37.625037],
   zoom: 15,
 };
 
@@ -22,18 +22,19 @@ export default function Contacts() {
       <button type="submit" className={styles.button}>ОТПРАВИТЬ</button>
     </form>
     <div className={styles.cards_section}>
-      <div className={styles.contact_card}>
+        <a href="tel:+7(927)115-84-36" className={styles.contact_card}>
         <img className={styles.icon} src="icons/phone.png" alt="phone icon" />
-        <p>+123 456 7890</p>
-      </div>
-      <div className={styles.contact_card}>
+        <p>+7(927)115-84-36</p>
+      </a>
+ 
+      <a href="mailto:admin@terstroy.com" className={styles.contact_card}>
         <img className={styles.icon} src="icons/email.png" alt="email icon" />
-        <p>contact@example.com</p>
-      </div>
-      <div className={styles.contact_card}>
+        <p>admin@terstroy.com</p>
+      </a>
+      <a href="https://yandex.ru/maps/213/moscow/house/varshavskoye_shosse_42/Z04YcAVlSUYAQFtvfXp2d31jbA==/?ll=37.625037%2C55.676108&z=17" target='blank' className={styles.contact_card}>
         <img className={styles.icon} src="icons/location1.png" alt="location icon" />
         <p>Варшавское ш. 42</p>
-      </div>
+      </a>
     </div>
   </div>
   <div className={styles.map_section}>
